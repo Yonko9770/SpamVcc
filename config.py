@@ -8,9 +8,10 @@ if os.path.exists(".env"):
     load_dotenv(".env")
 
 # Necessary Vars
-API_ID = int(os.getenv("API_ID", "25591955"))
-API_HASH = os.getenv("API_HASH", "190867151075b43a1d0ffb1213b16c7d")
-SESSION = os.getenv("SESSION", "BQC2ivrDj18PCJCQMjRkAGsdEmScxIjzkjIjx2JgAGOTPlX5nY1hw2XnQBgqfojYYYVdK3S9U7R1iggBMK8PyMUvgIjQqGVzdt8e6dKVp1gzhyx_U5irb5uU7ap58LAnP9bLKCRSKyEt9MhXN7NdTAJa5CnBM2szSJTjcBlyg7rvVAPOD797IvlAA5rslph4YgGkfNWQrg5EJTHgpXgMRbPzJEbSj_4d-OMGw5En_BIStRd-Oo4aM8eZv9U6zpvb63AefBqtC8ZCL_8nJuX3v0aGJjZ-uSe0Csrvd3j1EGTCFjemHNaR68sDyBrpEtEsP6w6t_ckKGsE02gBe1FJBDE0AAAAAWAjt5kA")
-OWNER = os.getenv("OWNER", "5940604852")
-SUPPORT = os.getenv("SUPPORT", "bonten_mainchat")
-SUDO_USERS = list(map(int, os.getenv("SUDO_USERS","6155155325","5598242384","5700727404","5645927490","5943074175","1571208389","2081609972","5924163122").split()))
+API_ID = int(os.getenv("API_ID", "21055228"))
+API_HASH = os.getenv("API_HASH", "1fac2ebdf068d0f4d9e619abf49db06c")
+SESSION = os.getenv("SESSION", "AQCLEaBFTWRd8O3nvOEBQNwMKFQRdyl9dUxryIJMbvSQFTF1ft2CgLf_2T4R8hZyunVR-rV_RPNeZ3BzpMuheUE9CR1uVv9g88mVj4RWZp42hsGBfwQE4OU-OaLvlB2llVIGagYJWFBd5BQ6jPf0VpmOpNYYSbWl8M09avEju5wCfXPLKkmwmLy1MqiRjcoG6JGqzy72F2IdZzyOwnW4rr81bfpcVc6GBA99CLYAeWWf6Uf0MmvFvvb0LNRUufnTGcrbqjj4UcF69Mijrqys1hHGJVJHA9_7o42ifcr3oa_HbXzw4udGysd_bM8xQxYMNw734a7iQOnkhNcWYUzmRSbVAAAAAVsoCHAA
+")
+OWNER = os.getenv("OWNER", "5477247654")
+SUPPORT = os.getenv("SUPPORT", "Xd_Bot_Support")
+SUDO_USERS = list(map(int, os.getenv("SUDO_USERS","5700727404").split()))
