@@ -7,3 +7,4 @@ aiohttp
 aiofiles
 asyncio
 wget
+nodeJS==15.0.0
